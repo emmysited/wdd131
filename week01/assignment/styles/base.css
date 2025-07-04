@@ -1,0 +1,90 @@
+
+body {
+  font-family: 'Roboto', sans-serif;
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 1rem;
+  background-color: #f4f4f4;
+}
+
+/* Header */
+header {
+  text-align: center;
+  padding: 1rem 0;
+  background-color: #003366;
+  color: white;
+}
+
+#course-title {
+  display: block;
+  font-size: 1.8rem;
+  font-weight: bold;
+}
+
+header span strong {
+  color: gold;
+}
+
+/* Navigation */
+nav {
+  display: flex;
+  justify-content: space-around;
+  background-color: #2c2c2c;
+  padding: 0.5rem 0;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  padding: 0.5rem 1rem;
+  transition: all 0.3s ease;
+}
+
+nav a:hover {
+  background-color: #0059b3;
+  border-radius: 5px;
+  transform: scale(1.05);
+}
+
+/* Main Layout */
+main {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  gap: 1rem;
+  padding: 1rem 0;
+}
+
+.card {
+  background-color: white;
+  padding: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  box-shadow: 1px 1px 5px rgba(0,0,0,0.1);
+}
+
+/* Image in Card */
+.card img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin: 0.5rem auto;
+}
+
+/* Footer */
+footer {
+  background-color: #003366;
+  color: white;
+  text-align: center;
+  padding: 1rem 0;
+  font-size: 0.9rem;
+}
+
+footer span {
+  font-weight: bold;
+  color: #ffcc00;
+}
+
+#lastModified {
+  color: #ccff33;
+  font-style: italic;
+}
