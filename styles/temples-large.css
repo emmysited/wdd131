@@ -1,0 +1,23 @@
+@media only screen and (min-width: 32rem) {
+    nav {
+      display: flex !important;
+      flex-direction: row;
+      gap: 1rem;
+    }
+  
+    #menu-toggle {
+      display: none;
+    }
+  
+    .album {
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      justify-items: center;
+    }
+  
+    main {
+      max-width: 1200px;
+      margin: 0 auto;
+      padding: 1rem;
+    }
+  }
+  
