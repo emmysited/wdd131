@@ -1,0 +1,15 @@
+/* temples-large.css */
+
+#menu-toggle {
+    display: none;
+  }
+  
+  nav {
+    display: flex !important;
+    gap: 1rem;
+  }
+  
+  .grid {
+    grid-template-columns: repeat(3, 1fr);
+  }
+  
