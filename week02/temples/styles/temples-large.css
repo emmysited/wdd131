@@ -1,0 +1,15 @@
+nav {
+    display: flex !important;
+    justify-content: center;
+    gap: 1rem;
+    position: static;
+  }
+  
+  #menu-toggle {
+    display: none;
+  }
+  
+  .grid {
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  }
+  

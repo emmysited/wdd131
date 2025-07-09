@@ -1,13 +1,6 @@
-// Set current year
+// Dynamic year and last modified
 document.getElementById('year').textContent = new Date().getFullYear();
-
-// Format and set last modified date
-const lastModified = new Date(document.lastModified);
-document.getElementById('lastModified').textContent = lastModified.toLocaleDateString("en-US", {
-  year: "numeric",
-  month: "2-digit",
-  day: "2-digit"
-});
+document.getElementById('lastModified').textContent = document.lastModified;
 
 // Hamburger toggle
 document.getElementById('menu-toggle').addEventListener('click', () => {
