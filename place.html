@@ -3,16 +3,14 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <meta name="description" content="Explore Uganda, the Pearl of Africa. Discover its weather, 
-  wildlife, national parks, and rich culture in this responsive web page." />
+  <meta name="description" content="Explore Uganda, the Pearl of Africa. Discover its weather, wildlife, national parks, and rich culture." />
   <meta name="author" content="McOsutre Emmanuel" />
-  <meta name="keywords" content="Uganda, Pearl of Africa, East Africa, Safari,
-   National Parks, Nile River, Travel, Tourism" />
+  <meta name="keywords" content="Uganda, Pearl of Africa, Safari, Nile, Kampala, National Parks, Travel" />
   <title>Uganda - The Pearl of Africa</title>
   <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap" rel="stylesheet">
-  <link rel="icon" href="images/x-icon.png" type="images/x-icon" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat&family=Nunito&display=swap" rel="stylesheet">
+  <link rel="icon" href="images/x-icon.png" type="image/x-icon" />
   <link rel="stylesheet" href="styles/place.css" />
   <script src="scripts/place.js" defer></script>
 </head>
@@ -22,60 +20,41 @@
   </header>
 
   <main>
+    <!-- Hero Image -->
     <section class="hero">
       <picture>
         <source srcset="images/uganda-hero-large.webp" media="(min-width: 768px)">
-        <img src="images/uganda-hero-large.webp" alt="Scenic view of Uganda" loading="lazy">
+        <img src="images/uganda-hero-small.webp" alt="Scenic view of Uganda" loading="lazy">
       </picture>
     </section>
 
-    <section class="weather">
-      <h2 class="weather-heading">Weather</h2>
+    <!-- Data Section -->
+    <section class="overlay-box data">
+      <h3>Data</h3>
+      <p><strong>Area:</strong> 241,038 sq km</p>
+      <p><strong>Population:</strong> 47,000,000+</p>
+      <p><strong>Capital:</strong> Kampala</p>
+      <p><strong>Languages:</strong> English, Swahili</p>
+      <p><strong>Currency:</strong> Ugandan Shilling (UGX)</p>
+      <p><strong>Time Zone:</strong> UTC+3</p>
+      <p><strong>Calling Code:</strong> +256</p>
+      <p><strong>Internet TLD:</strong> .ug</p>
+    </section>
+
+    <!-- Weather Section -->
+    <section class="overlay-box weather">
+      <h3 class="weather-heading">Weather</h3>
       <p>Temperature: <span id="temp">25</span>°C</p>
-      <p>Wind Speed: <span id="speed">12</span> km/h</p>
+      <p>Conditions: Partly Cloudy</p>
+      <p>Wind: <span id="speed">12</span> km/h</p>
       <p>Wind Chill: <span id="windchill">N/A</span></p>
-      <img src="images/weather-icon.svg" alt="Weather icon" class="weather-icon">
-    
-      <h3>Typical Climate in Uganda</h3>
-      <p>Uganda has a tropical climate with two rainy seasons (March-May and September-November)
-         and two dry seasons. Temperatures are generally warm throughout the year, ranging from 20°C to 30°C depending
-          on altitude.</p>
-      <ul>
-        <li><strong>Rainy Season:</strong> Heavy rains support agriculture and lush green landscapes.</li>
-        <li><strong>Dry Season:</strong> Great for travel and visiting national parks 
-          like Murchison Falls and Queen Elizabeth.</li>
-        <li><strong>Humidity:</strong> Often high near Lake Victoria, especially in Kampala and Entebbe.</li>
-      </ul>
+      <img src="images/weather-icon.svg" alt="Partly cloudy weather icon" class="weather-icon">
     </section>
-    
-    <section class="content">
-      <h2>About Uganda</h2>
-      <p>Uganda, often called the "Pearl of Africa," is a 
-        landlocked country in East Africa known for its rich biodiversity, 
-        cultural diversity, and stunning landscapes. From savannas and forests 
-        to lakes and mountains, Uganda is one of the most scenic places on the continent.</p>
-    
-      <h3>Key Highlights</h3>
-      <ul>
-        <li><strong>Capital City:</strong> Kampala</li>
-        <li><strong>Official Language:</strong> English and Swahili</li>
-        <li><strong>Population:</strong> Over 47 million people</li>
-        <li><strong>Currency:</strong> Ugandan Shilling (UGX)</li>
-      </ul>
-    
-      <h3>Popular Attractions</h3>
-      <ul>
-        <li><strong>Lake Victoria:</strong> The largest lake in Africa and second largest freshwater lake in the world.</li>
-        <li><strong>Source of the Nile:</strong> Jinja is where the Nile River begins its journey to Egypt.</li>
-        <li><strong>National Parks:</strong> Bwindi Impenetrable Forest (home to mountain gorillas), Murchison Falls, and Queen Elizabeth National Park.</li>
-        <li><strong>Cultural Sites:</strong> Kasubi Tombs, Ndere Cultural Centre, and the Uganda Museum.</li>
-      </ul>
-    </section>
-    
   </main>
 
   <footer>
-    <p>&copy; <span id="year"></span> | Last Modified: <span id="lastModified"></span></p>
+    <p>&copy; <span id="year"></span> 🌍 McOsutre Emmanuel 🇺🇬 Uganda<br>
+    Last Modification: <span id="lastModified"></span></p>
   </footer>
 </body>
 </html>
