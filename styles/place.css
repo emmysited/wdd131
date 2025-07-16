@@ -53,19 +53,20 @@
     border-left: 8px solid var(--color-yellow);
   }
   
-  .weather-heading::after {
-    content: " ⛅";
-    font-size: 1.2rem;
-    margin-left: 0.5rem;
+  .weather-heading {
+    font-size: 1.25rem;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
   }
-  
-  .weather-icon {
+
+ .weather-icon {
     width: 24px;
     height: auto;
     display: block;
     margin-top: 1rem;
   }
-  
   footer {
     background: var(--color-red);
     color: var(--color-white);
@@ -108,5 +109,6 @@
     .weather-icon {
       display: none;
     }
+    
   }
     

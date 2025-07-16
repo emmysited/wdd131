@@ -12,6 +12,7 @@
   <link href="https://fonts.googleapis.com/css2?family=Montserrat&family=Nunito&display=swap" rel="stylesheet">
   <link rel="icon" href="images/x-icon.png" type="image/x-icon" />
   <link rel="stylesheet" href="styles/place.css" />
+  <link rel="stylesheet" href="styles/place-small.css" />
   <script src="scripts/place.js" defer></script>
 </head>
 <body>
@@ -42,14 +43,19 @@
     </section>
 
     <!-- Weather Section -->
-    <section class="overlay-box weather">
-      <h3 class="weather-heading">Weather</h3>
-      <p>Temperature: <span id="temp">25</span>°C</p>
-      <p>Conditions: Partly Cloudy</p>
-      <p>Wind: <span id="speed">12</span> km/h</p>
-      <p>Wind Chill: <span id="windchill">N/A</span></p>
-      <img src="images/weather-icon.svg" alt="Partly cloudy weather icon" class="weather-icon">
-    </section>
+   <!-- Weather Section -->
+<section class="overlay-box weather">
+  <h3 class="weather-heading">
+    Weather<span class="emoji"> ⛅</span>
+    <img src="images/weather-icon.svg" alt="Partly cloudy weather icon" class="weather-icon" />
+  </h3>
+  <p>Temperature: <span id="temp">25</span>°C</p>
+  <p>Conditions: Partly Cloudy</p>
+  <p>Wind: <span id="speed">12</span> km/h</p>
+  <p>Wind Chill: <span id="windchill">N/A</span></p>
+
+</section>
+
   </main>
 
   <footer>
