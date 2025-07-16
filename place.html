@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Uganda - The Pearl of Africa</title>
+  <link rel="stylesheet" href="styles/place.css" />
+  <script src="scripts/place.js" defer></script>
+</head>
+<body>
+  <header>
+    <h1>Uganda</h1>
+  </header>
+
+  <main>
+    <section class="hero">
+      <picture>
+        <source srcset="images/uganda-hero-large.webp" media="(min-width: 768px)">
+        <img src="images/uganda-hero-large.webp" alt="Scenic view of Uganda" loading="lazy">
+      </picture>
+    </section>
+
+    <section class="weather">
+      <h2 class="weather-heading">Weather</h2>
+      <p>Temperature: <span id="temp">25</span>°C</p>
+      <p>Wind Speed: <span id="speed">12</span> km/h</p>
+      <p>Wind Chill: <span id="windchill">N/A</span></p>
+      <img src="images/weather-icon.svg" alt="Weather icon" class="weather-icon">
+    </section>
+
+    <section class="content">
+      <h2>About Uganda</h2>
+      <p>Known as the Pearl of Africa, Uganda offers stunning lakes, wildlife, friendly people, and the source of the Nile River.</p>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; <span id="year"></span> | Last Modified: <span id="lastModified"></span></p>
+  </footer>
+</body>
+</html>
