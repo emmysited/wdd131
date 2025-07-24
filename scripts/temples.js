@@ -75,27 +75,7 @@ const temples = [
     imageUrl:
       "https://content.churchofjesuschrist.org/templesldsorg/bc/Temples/photo-galleries/mexico-city-mexico/400x250/mexico-city-temple-exterior-1518361-wallpaper.jpg"
   },
-  {
-    templeName: "Kampala Uganda",
-    location: "Kampala, Uganda",
-    dedicated: "2024, March, 25",
-    area: 10200,
-    imageUrl: "https://via.placeholder.com/400x250?text=Kampala+Temple"
-  },
-  {
-    templeName: "Johannesburg South Africa",
-    location: "Johannesburg, South Africa",
-    dedicated: "1985, August, 24",
-    area: 18700,
-    imageUrl: "https://via.placeholder.com/400x250?text=Johannesburg+Temple"
-  },
-  {
-    templeName: "Osaka Japan",
-    location: "Osaka, Japan",
-    dedicated: "2022, April, 12",
-    area: 93200,
-    imageUrl: "https://via.placeholder.com/400x250?text=Osaka+Temple"
-  }
+ 
 ];
 
 // 4. Display Function
