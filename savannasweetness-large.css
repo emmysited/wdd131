@@ -1,0 +1,30 @@
+/* styles/large.css */
+
+body {
+    max-width: 900px;
+    margin: 0 auto;
+  }
+  
+  img {
+    width: auto;
+    max-width: 80%;
+    display: block;
+    margin: 0 auto;
+  }
+  
+  h1 {
+    font-size: 32px;
+  }
+  
+  h2 {
+    font-size: 26px;
+  }
+  
+  h3 {
+    font-size: 22px;
+  }
+  
+  section {
+    padding: 20px 0;
+  }
+  

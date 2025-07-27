@@ -1,0 +1,27 @@
+/* styles/small.css */
+
+body {
+    padding: 10px;
+  }
+  
+  img {
+    width: 100%;
+    height: auto;
+  }
+  
+  section {
+    padding: 10px 0;
+  }
+  
+  h1 {
+    font-size: 24px;
+  }
+  
+  h2 {
+    font-size: 20px;
+  }
+  
+  h3 {
+    font-size: 18px;
+  }
+  
