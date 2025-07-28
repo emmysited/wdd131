@@ -14,10 +14,3 @@ const products = [
     option.textContent = product.name;
     selectElement.appendChild(option);
   });
-  
-  
-  // Review counter using localStorage
-  let count = localStorage.getItem('reviewCount') || 0;
-  count++;
-  localStorage.setItem('reviewCount', count);
-  document.getElementById('reviewCount').textContent = count;
