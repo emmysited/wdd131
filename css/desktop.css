@@ -1,0 +1,204 @@
+/* style.css */
+
+/* Base Reset & Fonts */
+body {
+    margin: 0;
+    font-family: 'Open Sans', Arial, sans-serif;
+    background-color: #f8f8f8;
+    line-height: 1.6;
+  }
+  
+  /* Header & Navigation */
+  header {
+    background-color: #206a2e;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+  }
+  
+  .logo {
+    max-height: 50px;
+  }
+  
+  nav {
+    position: relative;
+  }
+  
+  /* Hamburger button (mobile only) */
+  #menu-toggle {
+    display: block;
+    background: none;
+    border: none;
+    font-size: 2rem;
+    color: white;
+    cursor: pointer;
+  }
+  
+  /* Nav Menu Default (Mobile hidden) */
+  #nav-menu {
+    display: none;
+    flex-direction: column;
+    background-color: #206a2e;
+    position: absolute;
+    top: 60px;
+    right: 0;
+    width: 200px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    padding: 0;
+    margin: 0;
+    z-index: 10;
+  }
+  
+  #nav-menu.active {
+    display: flex;
+  }
+  
+  #nav-menu li {
+    list-style: none;
+    border-top: 1px solid #184e22;
+  }
+  
+  #nav-menu li:first-child {
+    border-top: none;
+  }
+  
+  #nav-menu a {
+    display: block;
+    color: white;
+    text-decoration: none;
+    padding: 0.75rem 1rem;
+    font-weight: 600;
+  }
+  
+  #nav-menu a:hover {
+    background-color: #184e22;
+  }
+  
+  /* Desktop Styles */
+  @media screen and (min-width: 769px) {
+    #menu-toggle {
+      display: none;
+    }
+  
+    #nav-menu {
+      display: flex !important;
+      flex-direction: row;
+      position: static;
+      background: none;
+      box-shadow: none;
+      width: auto;
+    }
+  
+    #nav-menu li {
+      border: none;
+      padding: 0;
+    }
+  
+    #nav-menu a {
+      padding: 0.5rem 1rem;
+      font-weight: 700;
+    }
+  
+    #nav-menu a:hover {
+      text-decoration: underline;
+      background: none;
+    }
+  }
+  
+  /* Hero & Section Images */
+  .hero {
+    text-align: center;
+    padding: 2rem 1rem;
+    background-color: #fff;
+  }
+  
+  .hero-img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 1rem;
+  }
+  
+  .tomato-img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 1rem auto;
+  }
+  
+  /* Main Content */
+  main {
+    max-width: 800px;
+    margin: 2rem auto;
+    background-color: white;
+    padding: 2rem;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+  }
+  
+  h1, h2 {
+    font-family: 'Montserrat', sans-serif;
+  }
+  
+  p {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1rem;
+  }
+  
+  /* Footer */
+  footer {
+    background-color: #eee;
+    text-align: center;
+    padding: 1rem;
+    font-size: 0.9rem;
+  }
+  
+  footer a {
+    text-decoration: none;
+    color: #206a2e;
+  }
+  
+  footer a:hover {
+    text-decoration: underline;
+  }
+  
+  /* === REFERENCES PAGE STYLING (Desktop) === */
+
+main.references {
+    max-width: 900px;
+    margin: 3rem auto;
+    background-color: #fff;
+    padding: 2.5rem 3rem;
+    box-shadow: 0 0 15px rgba(0,0,0,0.1);
+    border-radius: 8px;
+  }
+  
+  main.references h1 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2rem;
+    margin-bottom: 1.5rem;
+    text-align: center;
+    color: #206a2e;
+  }
+  
+  main.references ul {
+    padding-left: 1.5rem;
+    font-size: 1.05rem;
+    line-height: 1.8;
+  }
+  
+  main.references li {
+    margin-bottom: 1rem;
+  }
+  
+  main.references a {
+    color: #206a2e;
+    text-decoration: none;
+    word-break: break-word;
+  }
+  
+  main.references a:hover {
+    text-decoration: underline;
+    color: #184e22;
+  }
+  
